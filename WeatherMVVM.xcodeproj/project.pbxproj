@@ -15,6 +15,7 @@
 		6635CDB827ABC3A900D5D2A0 /* WeatherMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6635CDB727ABC3A900D5D2A0 /* WeatherMVVMUITests.swift */; };
 		6635CDBA27ABC3A900D5D2A0 /* WeatherMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6635CDB927ABC3A900D5D2A0 /* WeatherMVVMUITestsLaunchTests.swift */; };
 		6635CDC727ABC56F00D5D2A0 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6635CDC627ABC56F00D5D2A0 /* WeatherService.swift */; };
+		668B93E627AD354300DADF01 /* ButtonD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B93E527AD354300DADF01 /* ButtonD.swift */; };
 		66A18F7427ABED030068461F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A18F7327ABED030068461F /* Weather.swift */; };
 		66A18F7827AC10160068461F /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A18F7727AC10160068461F /* WeatherViewModel.swift */; };
 		66A18F7B27AC3BAA0068461F /* DarkModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A18F7A27AC3BAA0068461F /* DarkModeButton.swift */; };
@@ -49,6 +50,7 @@
 		6635CDB727ABC3A900D5D2A0 /* WeatherMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMVVMUITests.swift; sourceTree = "<group>"; };
 		6635CDB927ABC3A900D5D2A0 /* WeatherMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6635CDC627ABC56F00D5D2A0 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		668B93E527AD354300DADF01 /* ButtonD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonD.swift; sourceTree = "<group>"; };
 		66A18F7327ABED030068461F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		66A18F7727AC10160068461F /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		66A18F7A27AC3BAA0068461F /* DarkModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeButton.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				66A18F7A27AC3BAA0068461F /* DarkModeButton.swift */,
+				668B93E527AD354300DADF01 /* ButtonD.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668B93E627AD354300DADF01 /* ButtonD.swift in Sources */,
 				66A18F7827AC10160068461F /* WeatherViewModel.swift in Sources */,
 				66A18F7427ABED030068461F /* Weather.swift in Sources */,
 				66A18F7B27AC3BAA0068461F /* DarkModeButton.swift in Sources */,

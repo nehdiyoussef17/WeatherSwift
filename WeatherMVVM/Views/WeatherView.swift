@@ -11,7 +11,7 @@ struct WeatherView: View {
     
     @ObservedObject var viewModel: WeatherViewModel
     
-    @State private var isNight = false
+    @State public var isNight = false
     let Sun: String = "🌞"
     let Moon: String = "🌛"
     
@@ -20,20 +20,11 @@ struct WeatherView: View {
         ZStack{
             BGView(topColor: isNight ? .black : .blue,
                    bottomColor: Color("LightBlue"))
-        VStack(spacing: 110){
+            VStack(spacing: 110){
             HStack{
                 Spacer()
-                Button
-                {
-                    isNight.toggle()
-                }
-                label:
-                    {
-                DarkModeButton(
-                    title: isNight ? Sun : Moon
-                )}
-            }.padding(.top)
-                .frame(alignment: .topLeading)//Hstack
+                ButtonD(title:  isNight ? Sun : Moon,isNight: $isNight).padding(.top)
+                .frame(alignment: .topLeading)}//Hstack
             
             Text(viewModel.cityName)
                 .font(.system(size: 52, weight: .medium, design: .default))
@@ -84,3 +75,4 @@ struct BGView: View {
             .edgesIgnoringSafeArea(.all)
     }
 }
+
